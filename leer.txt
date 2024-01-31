@@ -1,0 +1,7 @@
+1.- Creo el proyecto: npx create-react-app axios
+2.- Modifico el fichero App.js
+3.- Instalo los axios: npm install axios
+
+4.- Obtenemos por consola el resultado de los datos obtenidos de placeholder
+
+5.- npm start
