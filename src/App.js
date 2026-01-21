@@ -51,6 +51,8 @@ function App() {
 export default App;
 
 /*
+UTILIZANDO API FECHT
+
 import React from "react";
 
 function App() {
