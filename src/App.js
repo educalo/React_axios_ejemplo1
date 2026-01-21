@@ -49,3 +49,59 @@ function App() {
 
 
 export default App;
+
+/*
+import React from "react";
+
+function App() {
+
+  const getUsers = () => {
+    const url = "https://jsonplaceholder.typicode.com/users";
+
+    fetch(url)
+      .then(response => response.json())   // Convertimos la respuesta a JSON
+      .then(data => {
+        console.log(data);                 // Mostramos los datos
+      })
+      .catch(error => {
+        console.log(error);                // Capturamos errores
+      });
+  };
+
+  const createPost = () => {
+    const url = "https://jsonplaceholder.typicode.com/posts";
+
+    const body = {
+      id: 1,
+      title: "Titulo",
+      body: "Curso de fetch en React",
+      userId: 1,
+    };
+
+    fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+    })
+      .then(response => response.json())   // Convertimos la respuesta
+      .then(data => {
+        console.log(data);                 // Mostramos el resultado del POST
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  };
+
+  return (
+    <div className="App">
+      <h1>HTTP - Fetch</h1>
+      <button onClick={getUsers}>Get Users</button>
+      <button onClick={createPost}>Create Post</button>
+    </div>
+  );
+}
+
+export default App;
+*/
