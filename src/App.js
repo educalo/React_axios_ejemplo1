@@ -51,7 +51,7 @@ function App() {
 export default App;
 
 /*
-UTILIZANDO API FECHT
+UTILIZANDO API FETCH
 
 import React from "react";
 
